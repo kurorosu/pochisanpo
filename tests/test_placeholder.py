@@ -1,6 +1,6 @@
-"""Placeholder test."""
+"""プレースホルダーテスト."""
 
 
 def test_placeholder() -> None:
-    """Placeholder test to satisfy pytest."""
+    """pytestを満たすためのプレースホルダーテスト."""
     assert True

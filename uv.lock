@@ -362,7 +362,10 @@ wheels = [
 [[package]]
 name = "pochisanpo"
 version = "0.0.1"
-source = { virtual = "." }
+source = { editable = "." }
+dependencies = [
+    { name = "click" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -378,6 +381,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "click", specifier = ">=8.3.1" }]
 
 [package.metadata.requires-dev]
 dev = [
